@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.navigation-ul{
+    margin:0;
+    padding:20px 0;
+    display:flex;
+    list-style: none;
+    font-size: large;
+}
+.navigation-list,.this-page-list{
+    margin:0 35px;
+    padding:10px 20px;
+}
+.navigation-ul-first-child{
+    margin:0 250px 0 80px;
+    padding:4px 5px;
+}
+.navigation-list:hover{
+    background-color: aqua;
+    color:rgb(44, 44, 44);
+}
+.this-page{
+    background-color:aqua;
+    height:3px;
+    border: none;
+}
+.logo-img{
+    width:50px;
+    height:40px;
+}
+.message{
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:red;
+    font-size: large;
+}

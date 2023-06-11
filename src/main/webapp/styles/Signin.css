@@ -1,0 +1,111 @@
+body{
+    margin:0;
+   background-color: rgb(148, 148, 243);
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+
+/*Login-Container*/
+.signin-container{
+    position:relative;
+    margin:100px 0  0 275px ;
+    width:600px;
+    height:400px;
+    background-color: aliceblue;
+    padding:40px 250px 0 0;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+.signin-form{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+}
+.login-input{
+    font-size: large;
+    padding:0 0 0 10px;
+    height:30px;
+    width:300px;
+    border:solid 2px black;
+    border-radius: 5px;
+    margin:0 0 0 20px;
+}
+.label{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: larger;
+}
+.email-block,.password-block{
+    display:flex;
+    margin:40px 0 0 0;
+}
+.submit-block{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    padding-left:200px;
+}
+.submit-input{
+    margin:40px 0 0 0;
+    padding:10px 30px;
+    font-weight: 800;
+    border-radius:2px;
+    color:aliceblue;
+    background-color: rgb(5, 2, 56);   
+}
+.create-account{
+    margin:30px 0 0 330px;
+    font-size: medium;
+}
+
+/*Sign up Container*/
+.signup-container{
+    position: relative;
+    background-color:aliceblue;
+    width:800px;
+    padding:50px 50px 50px 0;
+    margin:100px 250px;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+.signup-form{
+display:flex;
+flex-direction: column;
+align-items: end;
+width:500px;
+margin-left: 15%;
+font-size: larger;
+}
+.signup-date-label{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.signup-input-block{
+    display: flex;
+    margin:20px 0;
+}
+.signup-input{
+    font-size: large;
+    padding:0 0 0 10px;
+    height:30px;
+    width:300px;
+    border:solid 2px black;
+    border-radius: 5px;
+    margin:0 0 0 20px;
+}
+.signup-submit-input{
+    margin:40px 30px 0 0;
+    padding:10px 30px;
+    font-weight: 800;
+    border-radius:2px;
+    color:aliceblue;
+    background-color: rgb(5, 2, 56);   
+}
+.signup-button{
+    display: flex;
+}

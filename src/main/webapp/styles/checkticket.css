@@ -1,0 +1,63 @@
+.container{
+    margin: 50px;
+    position: relative;
+  }
+.input-text{
+    height:35px;
+    padding: 0 8px;
+    width: 300px;
+    font-size: medium;
+}
+.input-submit{
+    border: none;
+    background-color: #3ca9e2;
+    color: #fff;
+    padding: 10px 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left:20px;
+ }
+ .input-submit:hover {
+    background-color: #329dd5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+  }
+  .cancelmessage{
+    position: absolute;
+    top:60px;
+    left:46%;
+    transform: translate(-50%,-50%);
+    color:red;
+    font-size: large;
+}
+.ticket-container{
+    margin:50px 150px 0 150px;;
+}
+.ticket-name{
+    font-size: 20px;
+    margin:20px 0;
+}
+.flight-details-heading{
+    font-size: 25px;
+    color: #329dd5;
+}
+.ticket-table{
+    width:100%;
+}
+.ticket-table-heading{
+    width:500px;
+}
+td{
+    padding:30px 60px;  
+    align-items: center;
+}
